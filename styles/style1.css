@@ -403,7 +403,7 @@ input:checked + .slider:before {
 .sec-content{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -799,8 +799,113 @@ font-weight: 500;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 520px) {
+/*For Tamil Page*/
 
+/*Navbar Section Tamil*/
+.navlogo-candidatename-ta{
+    font-family: var(--anektamil);
+    color: var(--white1);
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+/*Hero Section Tamil*/
+
+.herosec-title-ta{
+    color: var(--black1);
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family: var(--anektamil);
+    line-height: 6rem;
+}
+
+.herosec-subtitle-ta{
+    color: var(--green2);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.primary-btntext-ta{
+    color: var(--white1);
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+/*About Section Tamil*/
+ .sec-partylogo-ta{
+
+    width: 64px;
+}
+
+
+.sec-titletext-ta{
+    font-family: var(--anektamil);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+.aboutsec-left-ta{
+    justify-content: center;
+}
+
+.aboutsec-subtitle-ta{
+    font-size: 1.7rem;
+    text-align: left;
+    color:var(--green2);
+
+}
+
+/*Consistuency Section Tamil*/
+
+.consec-infotext-ta{
+    font-size: 2rem;
+    font-family: var(--anektamil);
+}
+
+.consec-first-ta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+}
+
+.consec-map-ta{
+border-radius: 1rem;
+height: 210px;
+}
+
+.consec-img-ta{
+width: 300px;
+}
+
+/*Achievement Tamil*/
+
+.third-btn-ext-ta{
+    width: 90%;
+    font-family: var(--anektamil);
+    font-size:1.5rem;
+    font-weight:900;
+}
+
+/*Manifesto Tamil*/
+.manifesto-title-ta{
+    font-family: var(--anektamil);
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.primary-btn-ext-text-ta{
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 520px) {
 
 .container{
     min-height: 100vh;
@@ -1524,6 +1629,112 @@ font-weight: 500;
 }
 
 
+/*For Tamil Page*/
+
+/*Navbar Section Tamil*/
+.navlogo-candidatename-mob-ta{
+    font-family: var(--anektamil);
+    color: var(--white1);
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+/*Hero Section Tamil*/
+
+.herosec-title-ta{
+    color: var(--black1);
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: var(--anektamil);
+    line-height: 3rem;
+}
+
+.herosec-subtitle-ta{
+    color: var(--green2);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+.primary-btntext-ta{
+    color: var(--white1);
+    font-size: 0.7rem;
+    font-weight: 600;
+
+}
+/*About Section Tamil*/
+ .sec-partylogo-ta{
+    width: 40px;
+}
+
+
+.sec-titletext-ta{
+    font-family: var(--anektamil);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.aboutsec-left-ta{
+    justify-content: center;
+}
+
+.aboutsec-subtitle-ta{
+    font-size: 1rem;
+    text-align: left;
+    color:var(--green2);
+
+}
+
+/*Consistuency Section Tamil*/
+
+.consec-infotext-ta{
+    font-size: 1.5rem;
+    font-family: var(--anektamil);
+}
+
+.consec-first-ta{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+}
+
+.consec-map-ta{
+border-radius: 1rem;
+height: 210px;
+}
+
+.consec-img-ta{
+width: 250px;
+}
+
+/*Achievement Tamil*/
+
+.third-btn-ext-ta{
+    width: 90%;
+    font-family: var(--anektamil);
+    font-size:1rem;
+    font-weight:900;
+}
+
+/*Manifesto Tamil*/
+.manifesto-title-ta{
+    font-family: var(--anektamil);
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.primary-btn-ext-text-ta{
+    font-size: 0.9rem;
+}
+
+.footer-text-ta{
+    font-size: 0.4rem;
+}
 
     /* .aboutsec{
         display: none;
