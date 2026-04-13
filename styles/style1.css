@@ -210,7 +210,11 @@ input:checked + .slider:before {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    gap:220px;
+    gap:293px;
+}
+
+.herosec-right-en{
+gap:280px;
 }
 
 /*Party Leaders*/
@@ -557,13 +561,13 @@ padding: 1rem;
 }
 
 .article-card{
-    width: 300px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    padding: 2rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     background-color: var(--white1);
     border: 1px solid var(--grey1);
@@ -579,7 +583,7 @@ padding: 1rem;
 }
 
 .article-img{
-    width: 300px;
+    width: 250px;
     border-radius: 1rem;
 }
 
@@ -1052,7 +1056,7 @@ width: 300px;
 }
 
 .partyleader{
-    height: 110px;
+    height: 73px;
     border-radius: 0.5rem;
 }
 
@@ -1061,7 +1065,7 @@ width: 300px;
 .herosec-content{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 0.5rem;
 }
@@ -1074,6 +1078,7 @@ width: 300px;
 }
 
 .herosec-subtitle{
+    text-align: center;
     color: var(--green2);
     font-size: 0.9rem;
     font-weight: 700;
@@ -1917,7 +1922,7 @@ width: 250px;
 }
 
 .partyleader{
-    height: 180px;
+    height: 120px;
     border-radius: 0.5rem;
 }
 
@@ -1926,7 +1931,7 @@ width: 250px;
 .herosec-content{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 0.5rem;
 }
@@ -1939,6 +1944,7 @@ width: 250px;
 }
 
 .herosec-subtitle{
+    text-align: center;
     color: var(--green2);
     font-size: 1.4rem;
     font-weight: 700;
@@ -2780,7 +2786,7 @@ width: 250px;
 }
 
 .partyleader{
-    height: 240px;
+    height: 163px;
     border-radius: 0.5rem;
 }
 
@@ -2789,7 +2795,7 @@ width: 250px;
 .herosec-content{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 0.5rem;
 }
@@ -3569,7 +3575,7 @@ width: 250px;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    gap:9.7rem;
+    gap:200pxpx;
 }
 
 /*Party Leaders*/
@@ -3582,7 +3588,7 @@ width: 250px;
 }
 
 .partyleader{
-    height: 180px;
+    height: 127px;
     border-radius: 0.5rem;
 }
 
@@ -3591,7 +3597,7 @@ width: 250px;
 .herosec-content{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     gap: 0.5rem;
 }
@@ -3604,8 +3610,9 @@ width: 250px;
 }
 
 .herosec-subtitle{
+    width: 450px;
     color: var(--green2);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 
@@ -3937,13 +3944,13 @@ padding: 1rem;
 }
 
 .article-card{
-    width: 240px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     background-color: var(--white1);
     border: 1px solid var(--grey1);
@@ -3959,7 +3966,7 @@ padding: 1rem;
 }
 
 .article-img{
-    width: 240px;
+    width: 200px;
     border-radius: 1rem;
 }
 
@@ -4201,7 +4208,7 @@ font-weight: 500;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    gap:9.4rem;
+    gap:200px;
 }
 
 .herosec-title-ta{
