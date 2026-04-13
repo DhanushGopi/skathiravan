@@ -696,11 +696,54 @@ font-weight: 500;
 .shorts-btn{
     width: 300px;
     height: 420px;
+     background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), 
+                url(../assests/reels1.png);
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
+
 }
 
 .shorts-btn:hover{
     width: 300px;
     height: 420px;
+     background: linear-gradient(180deg,rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.5) 100%), 
+                url(../assests/reels1.png);
+     background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
+}
+
+.shorts-btn2{
+     background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), 
+                url(../assests/reels2.png);
+                 background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
+}
+
+.shorts-btn2:hover{
+      background: linear-gradient(180deg,rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.5) 100%), 
+                url(../assests/reels2.png);
+                 background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
+}
+
+.shorts-btn3{
+     background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%), 
+                url(../assests/reels2.png);
+                 background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
+}
+
+.shorts-btn3:hover{
+      background: linear-gradient(180deg,rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.5) 100%), 
+                url(../assests/reels2.png);
+                 background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center; 
 }
 
 /*Achievement Section*/
